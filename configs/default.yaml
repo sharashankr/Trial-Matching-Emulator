@@ -1,0 +1,9 @@
+project_name: cohere_trial_matcher
+retrieval:
+  top_k: 5
+ranking:
+  enabled: true
+llm:
+  enabled: false
+evaluation:
+  groundedness_threshold: 0.5

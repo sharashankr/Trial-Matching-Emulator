@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cohere-trial-matcher"
+version = "0.1.0"
+description = "Starter scaffold for a modular clinical trial matching pipeline"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2.7",
+  "pandas>=2.2",
+  "numpy>=1.26",
+  "scikit-learn>=1.4",
+  "pyyaml>=6.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["trialmatch*"]
