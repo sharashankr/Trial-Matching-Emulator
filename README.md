@@ -1,4 +1,4 @@
-# Cohere-Style Clinical Trial Matching Starter
+# Style Clinical Trial Matching Starter
 
 A lightweight Python starter repo for a **clinical trial matching pipeline** that is strong enough to discuss in interviews and easy to extend into a real GitHub project.
 
